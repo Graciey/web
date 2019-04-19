@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\xampp\php\php7.1.9;C:\ProgramData\ComposerSetup\bin;C:\wamp64\bin\php\php7.2.14;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PostgreSQL\10\bin;C:\Program Files\PostgreSQL\11\bin;C:\Users\ME\AppData\Roaming\npm;C:\Users\ME\AppData\Local\Yarn\bin;C:\Users\ME\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: UNKNOWN: unknown error, mkdir 'C:\Users\ME\AppData\Local\Temp\yarn--1555337294006-0.6350124162052388'
+
+npm manifest: 
+  {
+    "author": "Urinrin",
+    "name": "emchat-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server --open",
+      "build": "webpack -p"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.3.4",
+      "@babel/plugin-proposal-class-properties": "^7.3.4",
+      "@babel/preset-env": "^7.3.4",
+      "@babel/preset-react": "^7.0.0",
+      "babel-cli": "^6.26.0",
+      "babel-loader": "^8.0.5",
+      "bootstrap-4-react": "0.0.57",
+      "css-loader": "^2.1.0",
+      "file-loader": "^3.0.1",
+      "html-loader": "^0.5.5",
+      "image-webpack-loader": "4.6.0",
+      "style-loader": "^0.23.1",
+      "webpack": "^4.29.6",
+      "webpack-cli": "^3.2.3",
+      "webpack-dev-server": "^3.2.1"
+    },
+    "dependencies": {
+      "@material-ui/core": "^3.9.2",
+      "moment": "^2.24.0",
+      "node-sass": "^4.11.0",
+      "react": "^16.8.3",
+      "react-dom": "^16.8.3",
+      "react-router": "^4.3.1",
+      "react-router-dom": "^4.3.1",
+      "sass-loader": "^7.1.0",
+      "socket.io-client": "^2.2.0",
+      "url-loader": "^1.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
